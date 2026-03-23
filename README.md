@@ -38,4 +38,4 @@
 - ROC-AUC: ~0.99
 
 ## Видео-демонстрация
-[Ссылка на видео](video/demo.mp4)
+[Ссылка на видео](https://disk.yandex.ru/i/6CgutKt8_8EexA)
