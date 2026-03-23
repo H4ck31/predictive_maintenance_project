@@ -8,13 +8,11 @@ st.set_page_config(
     layout="wide"
 )
 
-# --- Навигация (правильный синтаксис) ---
-# Создаем список страниц (не словарь!)
+# --- Навигация ---
 page_analis = st.Page("analysis_and_model.py", title="📊 Анализ и модель")
 page_presentation = st.Page("presentation.py", title="📽️ Презентация")
 
-# Передаем список в st.navigation
 current_page = st.navigation([page_analis, page_presentation], position="sidebar")
 
-# Запускаем текущую страницу
+# --- Запуск текущей страницы ---
 current_page.run()
